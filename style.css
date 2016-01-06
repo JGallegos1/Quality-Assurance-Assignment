@@ -25,3 +25,11 @@ a:hover:not(.active) {
 .active {
 background-color:#4CAF50;
 }
+
+.social-media {
+ float: right;
+}
+
+a img {
+    padding: 5px 10px;
+}
