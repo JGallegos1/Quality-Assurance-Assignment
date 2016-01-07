@@ -1,35 +1,51 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+body
+{
+/* background:url('Images/sadpug.jpg') no-repeat center center fixed; */
 }
 
-li {
-    float: left;
+#vName {
+	float:right;
 }
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+h1	{
+color:	blue;
+text-align:	left;
 }
+p	{
+ color:	blue;
+ }
+ 
+.bigpic {
+	clear:left;
+	float:left;
+	box-shadow: 10px 10px 5px #888888;
+	margin-right:20px;
+	}
+ 
+header {
+	 background-color:#cc0066;
+	 width:500px;
+	 text-align:center;
+	 margin-left:auto;
+	 margin-right:auto;
+	 padding: 10px;
+	 box-shadow: 3px 3px 7px #777;
+	}
+ 
+header a	{
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	color:white;
+	margin: 15px;
+	text-decoration:none;
+	padding:5px;
+	}
+ 
+header a:hover {
+	text-decoration:underline;
+	color:yellow;
+	background-color:blue;
+	}
 
-a:hover:not(.active) {
-    background-color: #111;
-}
 
-.active {
-background-color:#4CAF50;
-}
-
-.social-media {
- float: right;
-}
-
-a img {
-    padding: 5px 10px;
-}
