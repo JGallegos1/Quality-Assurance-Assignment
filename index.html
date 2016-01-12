@@ -65,17 +65,22 @@
     <div class="jumbotron">
         <h1>Welcome</h1>
     </div>
-<div class="logIn">
-    <form name="frmLogin">
-        Login: <input type="text" name="fname" placeholder="Login" size="20"><br>
-        Email: <input type="text" name="email" placeholder="Email" size="20"><br>
-        <input type="button" Value="Log In" onClick="createCookie('myCookie',frmLogin.fname.value,frmLogin.email.value);">
-    </form>
-    <script src="http://code.jquery.com/jquery-2.1.4.min.js">
-    </script> <!-- Latest compiled and minified JavaScript -->
-     
-    <script src=
-    "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
-    </script>
+    <div class="logIn">
+        <form id="frmLogin" name="frmLogin">
+            Name: <input name="fname" placeholder="Name" size="20" type=
+            "text"><br>
+            Email: <input name="email" placeholder="Email" size="20" type=
+            "text"><br>
+            <input onclick=
+            "createCookie('myCookie',frmLogin.fname.value,frmLogin.email.value);"
+            type="button" value="Log In">
+        </form>
+        <script src="http://code.jquery.com/jquery-2.1.4.min.js">
+        </script> <!-- Latest compiled and minified JavaScript -->
+         
+        <script src=
+        "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+        </script> 
+    </div>
 </body>
 </html>

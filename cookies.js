@@ -12,7 +12,7 @@ function createCookie(name,value,email) {
 	          alert("Please enter a valid email address.");
 	     }
 	     else {
-	          alert("Thank you for logging in.");
+	          alert("You are now logged in.");
 	          window.location.reload();
 	          status = true;
 	     }
@@ -34,7 +34,7 @@ function readCookie(name) {
 	}
 	
 	if (visitorName.length > 0) {
-		var writeLink = "Hello " + visitorName + " - <a href=\"javascript:eraseCookie('myCookie');eraseLogin();eraseEmail();\">Logout</a>"
+		var writeLink = "Logged in as " + visitorName + " - <a href=\"javascript:eraseCookie('myCookie');eraseLogin();eraseEmail();\">Logout</a>"
 	} 
 	else
 	{
@@ -47,7 +47,7 @@ function readCookie(name) {
 function eraseCookie(name) {
 	document.cookie = name+"=;expires='1/1/2000'; path=/";
 
-		alert("Thank you for logging out.");
+		alert("You are now logged out.");
 		          window.location.reload();
 		          status = true; 
 }
