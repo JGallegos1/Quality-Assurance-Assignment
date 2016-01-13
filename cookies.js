@@ -38,7 +38,7 @@ function readCookie(name) {
 	} 
 	else
 	{
-		var writeLink = "Welcome, Please Log In" 
+		var writeLink = "Welcome, Please " + "<a href=\"index.html\">Log In</a>"
 	}
 	 
 	document.write(writeLink);
